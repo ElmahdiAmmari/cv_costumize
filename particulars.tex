@@ -1,90 +1,106 @@
 \input{utilities}
-\usepackage{blindtext}  
+
+\usepackage{blindtext}
 \usepackage{lipsum}
 
 \def\lrand{\lipsum[-]}
-\def\firstname{Firstname}
-\def\lastname{Lastname}
-\def\email{your_email@example.com}
-\def\linkedin{https://linkedin.com/in/yourprofile}
-\def\github{https://github.com/yourgithub}
-\def\jasphone{+000 00 00 00 00}
+
+\def\firstname{Elmahdi}
+\def\lastname{Ammari}
+\def\email{elmahdi.583.92@gmail.com}
+\def\linkedin{https://www.linkedin.com/in/elmahdi-ammari-85870a24b/}
+
+\def\github{}
+
+\def\jasphone{+212 707296539}
+\def\role{Seeking an Internship in DevOps \& Cloud Computing}
 
 \def\jbegin{\resumeItemListStart}
 \def\jitem{\resumeItem}
 \def\jend{\resumeItemListEnd}
 
 \def\skills{
-    \jbegin
-        \jitem{\textbf{Networking & Security:} Example tools/skills}
-        \jitem{\textbf{Systems & Virtualization:} Example tools/skills}
-        \jitem{\textbf{Cloud Computing:} Example platforms}
-        \jitem{\textbf{DevOps & Programming:} Example stack}
-    \jend
+\jbegin
+    \jitem{\textbf{Networking \& Security:} TCP/IP, Routing, 802.1X, FreeRADIUS, Metasploit}
+    \jitem{\textbf{Systems \& Virtualization:} Linux, Docker, VirtualBox, GNS3}
+    \jitem{\textbf{Cloud Computing:} AWS (EC2, S3, IAM, VPC, ECS, ECR, RDS, Secrets Manager)}
+    \jitem{\textbf{DevOps \& Programming:} Git, GitHub Actions, Terraform, CI/CD, Bash}
+\jend
 }
 
 \def\certifications{
-    \jbegin
-        \jitem{\textbf{Certification Provider -} Certification Title}
-        \jitem{\textbf{Certification Provider -} Certification Title}
-        \jitem{\textbf{Certification Provider -} Certification Title}
-        \jitem{\textbf{Certification Provider -} Certification Title}
-    \jend
+\jbegin
+    \jitem{\textbf{AWS -} Certified Solutions Architect -- Associate}
+    \jitem{\textbf{AWS -} Certified Cloud Practitioner}
+    \jitem{\textbf{Certified Kubernetes Administrator (CKA) -} In Progress}
+\jend
 }
 
 \def\langs{
-    \centerline{
-        \textbf{Language 1} (Level) \quad
-        \textbf{Language 2} (Level) \quad
-        \textbf{Language 3} (Level)
-    }
+\centerline{
+    \textbf{English} (Fluent) \quad
+    \textbf{French} (Fluent) \quad
+    \textbf{Arabic} (Native) \quad
+    \textbf{Tamazight} (Native)
+}
 }
 
 \EducationTemplate{College}
-{StartYear}{EndYear}{University/School Name}
-{Degree or Program Title}
-{extra}
+{2022}{2027}{ENSA Marrakech}
+{Engineering Degree in Network and Cloud Engineering}
+{}
 
 \ExpTemplate{project1}
-{Technologies Used}
-{Project Title Placeholder}
-{Project Date Placeholder}
+{AWS, ECS, ECR, VPC, IAM, Secrets Manager}
+{Cloud -- Web Application Deployment on AWS}
+{2026}
 {
 \jbegin
-    \jitem{Highlight 1 of the project}
-    \jitem{Highlight 2 of the project}
-    \jitem{Highlight 3 of the project}
-    \jitem{Highlight 4 of the project}
-    \jitem{Highlight 5 of the project}
+    \jitem{Deployed a containerized web application using AWS ECS and ECR.}
+    \jitem{Designed a VPC-based architecture with public and private network components.}
+    \jitem{Configured IAM roles and policies for secure AWS resource access.}
+    \jitem{Managed sensitive credentials and application secrets using AWS Secrets Manager.}
+    \jitem{Applied cloud architecture principles for secure and scalable deployment.}
 \jend
 }
+
 
 \ExpTemplate{project2}
-{Technologies Used}
-{Project Title Placeholder}
-{Project Date Placeholder}
+{Metasploit, Linux, Cybersecurity}
+{Cybersecurity -- Penetration Testing}
+{2025}
 {
 \jbegin
-    \jitem{Highlight 1 of the project}
-    \jitem{Highlight 2 of the project}
-    \jitem{Highlight 3 of the project}
-    \jitem{Highlight 4 of the project}
-    \jitem{Highlight 5 of the project}
+    \jitem{Conducted controlled penetration testing using the Metasploit Framework to identify system vulnerabilities.}
+    \jitem{Documented findings and proposed security improvements based on the results.}
 \jend
 }
 
-\StageTemplate{stage}
-{Internship Date Placeholder}
-{Technologies Used}
-{Internship Title Placeholder}
-{Company/Organization Placeholder}
+\StageTemplate{stage2}
+{2025 -- 1 month}
+{Networking, IT Support, Infrastructure}
+{IT \& Network Intern}
+{ORMVA Ouarzazate}
 {
 \jbegin
-    \jitem{Highlight 1 of the internship}
-    \jitem{Highlight 2 of the internship}
-    \jitem{Highlight 3 of the internship}
-    \jitem{Highlight 4 of the internship}
-    \jitem{Highlight 5 of the internship}
+    \jitem{Assisted with basic IT support and networking tasks.}
+    \jitem{Observed network and infrastructure operations in a real-world environment.}
+    \jitem{Gained practical exposure to IT infrastructure and system administration.}
+    \jitem{Discovered the operation and maintenance of real-world IT systems and environments.}
 \jend
 }
 
+\StageTemplate{stage1}
+{2026 -- 2 months}
+{GitHub Actions, Docker, AWS, CI/CD}
+{DevOps Intern}
+{Washaaa}
+{
+\jbegin
+    \jitem{Designed and implemented a CI/CD pipeline using GitHub Actions and Docker.}
+    \jitem{Implemented automated rollback mechanisms to improve deployment reliability.}
+    \jitem{Applied security practices to the application and deployment workflow.}
+    \jitem{Automated backup processes to improve data reliability and recovery.}
+    \jitem{Designed an AWS migration plan with justified architecture choices.}
+\jend
+}

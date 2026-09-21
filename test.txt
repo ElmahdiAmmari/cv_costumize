@@ -1,0 +1,62 @@
+Elmahdi Ammari
+Recherche un stage en DevOps & Cloud Computing
+ +212 707296539 # elmahdi.583.92@gmail.com
+ï https://www.linkedin.com/in/elmahdi-ammari-85870a24b/
+Formation
+ENSA Marrakech
+2022 2027
+Diplôme d’Ingénieur en Réseaux et Cloud Computing
+Expériences
+Stagiaire DevOps
+2026 – 2 mois
+Washaaa
+GitHub Actions, Docker, AWS, CI/CD
+Conception et mise en place d’un pipeline CI/CD avec GitHub Actions et Docker.
+Implémentation de mécanismes de rollback automatisés pour améliorer la fiabilité des déploiements.
+• Application de bonnes pratiques de sécurité sur l’application et le pipeline de déploiement.
+• Automatisation des processus de sauvegarde pour améliorer la fiabilité des données.
+• Conception d’un plan de migration AWS avec choix d’architecture justifiés.
+•
+•
+Stagiaire IT & Réseaux
+2025 – 1 mois
+ORMVA Ouarzazate
+Réseaux, Support IT, Infrastructure
+Assistance sur des tâches de support IT et de réseau de base.
+Observation des opérations réseau et infrastructure en environnement réel.
+• Exposition pratique à l’infrastructure IT et à l’administration système.
+• Découverte du fonctionnement et de la maintenance de systèmes IT réels.
+•
+•
+Projets
+Cloud – Déploiement d’une Application Web sur AWS
+2026
+AWS, ECS, ECR, VPC, IAM, Secrets Manager
+Déploiement d’une application web conteneurisée via AWS ECS et ECR.
+Conception d’une architecture VPC avec composants réseau publics et privés.
+• Configuration des rôles et politiques IAM pour un accès sécurisé aux ressources AWS.
+• Gestion des identifiants sensibles et des secrets applicatifs via AWS Secrets Manager.
+• Application des principes d’architecture cloud pour un déploiement sécurisé et scalable.
+•
+•
+Cybersécurité – Tests d’Intrusion
+2025
+Metasploit, Linux, Cybersecurité
+•
+•
+Réalisation de tests d’intrusion contrôlés avec le framework Metasploit pour identifier des vulnérabilités système.
+Documentation des résultats et proposition d’améliorations de sécurité.
+Compétences
+•Réseaux & Sécurité : TCP/IP, Routage, 802.1X, FreeRADIUS, Metasploit
+•Systèmes & Virtualisation : Linux, Docker, VirtualBox, GNS3
+•Cloud Computing : AWS (EC2, S3, IAM, VPC, ECS, ECR, RDS, Secrets Manager)
+•DevOps & Programmation : Git, GitHub Actions, Terraform, CI/CD, Bash
+Certifications
+•AWS - Certified Solutions Architect – Associate
+•AWS - Certified Cloud Practitioner
+•Certified Kubernetes Administrator (CKA) - En cours
+Langues
+Anglais (Courant)
+Français (Courant)
+Arabe (Natif)
+Tamazight (Natif)

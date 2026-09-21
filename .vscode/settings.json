@@ -1,0 +1,7 @@
+{
+    "files.exclude": {
+        "**/*.aux": true,
+        "**/*.log": true,
+        "**/*.out": true
+    }
+}
