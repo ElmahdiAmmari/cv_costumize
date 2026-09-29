@@ -1,5 +1,5 @@
 \documentclass[letterpaper,11pt]{article}
-\input{particulars_fr}
+\input{particulars_v1}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -11,10 +11,6 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-\usepackage{fontawesome5}
-\usepackage{multicol}
-\setlength{\multicolsep}{-3.0pt}
-\setlength{\columnsep}{-1pt}
 \input{glyphtounicode}
 
 \pagestyle{fancy}
@@ -44,31 +40,11 @@
   \item\small{#1 \vspace{-2pt}}
 }
 
-\newcommand{\describe}[2]{\csname #1@#2\endcsname}
-
-\newcommand{\classesList}[4]{
-  \item\small{#1 #2 #3 #4 \vspace{-2pt}}
-}
-
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & \textbf{\small #2} \\
       \textit{\small#3} & \textbf{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-  \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeProjectHeading}[2]{
-  \item
-    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & \textbf{\small #2}\\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -86,8 +62,8 @@
 \begin{center}
     {\Huge \scshape \firstname \ \lastname} \\ \vspace{2pt}
     \normalsize \textit{\role} \\ \vspace{2pt}
-    \small \raisebox{-0.1\height}\faPhone\ \jasphone ~ \href{mailto:\email}{\raisebox{-0.2\height}\faEnvelope\  \underline{\email}} \\
-    \href{\linkedin}{\raisebox{-0.2\height}\faLinkedin\ \underline{\linkedin}}
+    \small \stackline \\ \vspace{2pt}
+    \small T\'el : \jasphone \quad Email : \email \quad LinkedIn : \linkedin
     \vspace{-8pt}
 \end{center}
 }
@@ -109,32 +85,32 @@
 \begin{document}
 \titlesection
 
-\vspace{1em}
+\vspace{0.8em}
 
 \section{Formation}
   \resumeSubHeadingListStart
       \resumeSubheading{\csname College@School\endcsname}
-      {\csname College@Start\endcsname \ \csname College@End\endcsname}
+      {\csname College@Start\endcsname \ -- \ \csname College@End\endcsname}
       {\csname College@Course\endcsname \csname College@Stream\endcsname}{}
   \resumeSubHeadingListEnd
 
-\section{Expériences}
+\section{Certifications}
+\certifications
+
+\section{Exp\'eriences}
   \resumeSubHeadingListStart
     \renderStage{stage1}
     \renderStage{stage2}
   \resumeSubHeadingListEnd
+
+\section{Comp\'etences}
+\skills
 
 \section{Projets}
   \resumeSubHeadingListStart
     \renderExp{project1}
     \renderExp{project2}
   \resumeSubHeadingListEnd
-
-\section{Compétences}
-\skills
-
-\section{Certifications}
-\certifications
 
 \section{Langues}
 \langs

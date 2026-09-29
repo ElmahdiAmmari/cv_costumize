@@ -1,0 +1,103 @@
+\input{utilities}
+
+\usepackage{blindtext}
+\usepackage{lipsum}
+
+\def\lrand{\lipsum[-]}
+
+\def\firstname{Elmahdi}
+\def\lastname{Ammari}
+\def\email{elmahdi.583.92@gmail.com}
+\def\linkedin{https://www.linkedin.com/in/elmahdi-ammari-85870a24b/}
+
+\def\github{}
+
+\def\jasphone{+212 707296539}
+
+\def\role{Recherche un stage de fin d'\'etudes en Test \& Assurance Qualit\'e Logicielle}
+
+\def\jbegin{\resumeItemListStart}
+\def\jitem{\resumeItem}
+\def\jend{\resumeItemListEnd}
+
+\def\skills{
+\jbegin
+    \jitem{\textbf{Langages \& Bases de donn\'ees :} Java, SQL, Bash}
+    \jitem{\textbf{Tests \& Int\'egration Continue :} Git, Jenkins, GitHub Actions, CI/CD, Tests automatis\'es}
+    \jitem{\textbf{S\'ecurit\'e \& Tests d'Intrusion :} Metasploit, TCP/IP, 802.1X, FreeRADIUS}
+    \jitem{\textbf{Syst\`emes \& Cloud :} Linux, Docker, AWS (EC2, S3, ECS, IAM)}
+\jend
+}
+
+\def\certifications{
+\jbegin
+    \jitem{\textbf{AWS -} Certified Solutions Architect -- Associate}
+    \jitem{\textbf{AWS -} Certified Cloud Practitioner}
+    \jitem{\textbf{Certified Kubernetes Administrator (CKA) -} En cours}
+\jend
+}
+
+\def\langs{
+\centerline{
+    \textbf{Anglais} (Courant) \quad
+    \textbf{Fran\c{c}ais} (Courant) \quad
+    \textbf{Arabe} (Natif) \quad
+    \textbf{Tamazight} (Natif)
+}
+}
+
+\EducationTemplate{College}
+{2022}{2027}{ENSA Marrakech}
+{Dipl\^ome d'Ing\'enieur en R\'eseaux et Cloud Computing}
+{}
+
+\ExpTemplate{project1}
+{Java, Jenkins, GitHub Actions, Docker}
+{DevOps -- Pipeline CI/CD \& Tests Automatis\'es}
+{2026}
+{
+\jbegin
+    \jitem{Conception et mise en place d'un pipeline CI/CD avec GitHub Actions et Docker, incluant des \'etapes de validation et de tests automatis\'es avant d\'eploiement.}
+    \jitem{Impl\'ementation de m\'ecanismes de rollback automatis\'es pour garantir la fiabilit\'e des livraisons en production.}
+    \jitem{Application de bonnes pratiques de s\'ecurit\'e sur l'application et le pipeline de d\'eploiement.}
+    \jitem{Suivi des indicateurs de qualit\'e et de fiabilit\'e tout au long du cycle de d\'eploiement.}
+\jend
+}
+
+\ExpTemplate{project2}
+{Metasploit, Linux, Tests de S\'ecurit\'e}
+{Cybers\'ecurit\'e -- Tests d'Intrusion}
+{2025}
+{
+\jbegin
+    \jitem{R\'ealisation de tests d'intrusion contr\^ol\'es avec le framework Metasploit pour identifier des vuln\'erabilit\'es syst\`eme.}
+    \jitem{R\'edaction de rapports de tests d\'etaill\'es et proposition de correctifs de s\'ecurit\'e.}
+\jend
+}
+
+\StageTemplate{stage2}
+{2025 -- 1 mois}
+{R\'eseaux, Support IT, Infrastructure}
+{Stagiaire IT \& R\'eseaux}
+{ORMVA Ouarzazate}
+{
+\jbegin
+    \jitem{Assistance sur des t\^aches de support IT et de r\'eseau de base.}
+    \jitem{Observation des op\'erations r\'eseau et infrastructure en environnement r\'eel.}
+\jend
+}
+
+\StageTemplate{stage1}
+{2026 -- 2 mois}
+{GitHub Actions, Docker, Jenkins, CI/CD}
+{Stagiaire DevOps}
+{Washaaa}
+{
+\jbegin
+    \jitem{Conception et mise en place d'un pipeline CI/CD avec GitHub Actions et Docker, am\'eliorant la fiabilit\'e et la tra\c{c}abilit\'e des d\'eploiements.}
+    \jitem{Impl\'ementation de m\'ecanismes de rollback automatis\'es et suivi des anomalies d\'etect\'ees en pipeline.}
+    \jitem{Automatisation des processus de sauvegarde pour am\'eliorer la fiabilit\'e des donn\'ees.}
+    \jitem{Application de bonnes pratiques de s\'ecurit\'e sur l'application et le pipeline de d\'eploiement.}
+    \jitem{Conception d'un plan de migration AWS avec choix d'architecture justifi\'es.}
+\jend
+}

@@ -1,4 +1,4 @@
-\input{utilities}
+\input{../shared/utilities}
 
 \usepackage{blindtext}
 \usepackage{lipsum}
@@ -15,6 +15,7 @@
 \def\jasphone{+212 707296539}
 
 \def\role{Recherche un stage en DevOps \& Cloud Computing}
+\def\stackline{AWS \textbar\ Azure \textbar\ Docker \textbar\ CI/CD \textbar\ Ansible \textbar\ Linux}
 
 \def\jbegin{\resumeItemListStart}
 \def\jitem{\resumeItem}
@@ -22,10 +23,11 @@
 
 \def\skills{
 \jbegin
+    \jitem{\textbf{Cloud Computing :} AWS (EC2, S3, IAM, VPC, ECS, ECR, RDS, Secrets Manager), Azure}
+    \jitem{\textbf{DevOps \& Automatisation :} Git, GitHub Actions, Terraform, Ansible, CI/CD, Bash}
+    \jitem{\textbf{Notions Big Data :} Hadoop, HDFS, YARN, Hive, Spark, Pig}
     \jitem{\textbf{R\'eseaux \& S\'ecurit\'e :} TCP/IP, Routage, 802.1X, FreeRADIUS, Metasploit}
     \jitem{\textbf{Syst\`emes \& Virtualisation :} Linux, Docker, VirtualBox, GNS3}
-    \jitem{\textbf{Cloud Computing :} AWS (EC2, S3, IAM, VPC, ECS, ECR, RDS, Secrets Manager)}
-    \jitem{\textbf{DevOps \& Programmation :} Git, GitHub Actions, Terraform, CI/CD, Bash}
 \jend
 }
 
@@ -48,7 +50,7 @@
 
 \EducationTemplate{College}
 {2022}{2027}{ENSA Marrakech}
-{Dipl\^ome d'Ing\'enieur en R\'eseaux et Cloud Computing}
+{Dipl\^ome d'Ing\'enieur en R\'eseaux, Syst\`emes et Services Programmables}
 {}
 
 \ExpTemplate{project1}
@@ -60,8 +62,6 @@
     \jitem{D\'eploiement d'une application web conteneuris\'ee via AWS ECS et ECR.}
     \jitem{Conception d'une architecture VPC avec composants r\'eseau publics et priv\'es.}
     \jitem{Configuration des r\^oles et politiques IAM pour un acc\`es s\'ecuris\'e aux ressources AWS.}
-    \jitem{Gestion des identifiants sensibles et des secrets applicatifs via AWS Secrets Manager.}
-    \jitem{Application des principes d'architecture cloud pour un d\'eploiement s\'ecuris\'e et scalable.}
 \jend
 }
 
@@ -85,8 +85,6 @@
 \jbegin
     \jitem{Assistance sur des t\^aches de support IT et de r\'eseau de base.}
     \jitem{Observation des op\'erations r\'eseau et infrastructure en environnement r\'eel.}
-    \jitem{Exposition pratique \`a l'infrastructure IT et \`a l'administration syst\`eme.}
-    \jitem{D\'ecouverte du fonctionnement et de la maintenance de syst\`emes IT r\'eels.}
 \jend
 }
 
@@ -99,8 +97,8 @@
 \jbegin
     \jitem{Conception et mise en place d'un pipeline CI/CD avec GitHub Actions et Docker.}
     \jitem{Impl\'ementation de m\'ecanismes de rollback automatis\'es pour am\'eliorer la fiabilit\'e des d\'eploiements.}
-    \jitem{Application de bonnes pratiques de s\'ecurit\'e sur l'application et le pipeline de d\'eploiement.}
     \jitem{Automatisation des processus de sauvegarde pour am\'eliorer la fiabilit\'e des donn\'ees.}
+    \jitem{Application de bonnes pratiques de s\'ecurit\'e sur l'application et le pipeline de d\'eploiement.}
     \jitem{Conception d'un plan de migration AWS avec choix d'architecture justifi\'es.}
 \jend
 }
